@@ -25,9 +25,9 @@ docker run \
         --env QT_X11_NO_MITSHM=1 \
         --env LIBGL_ALWAYS_SOFTWARE=0 \
         --volume "/tmp/.X11-unix:/tmp/.X11-unix:rw" \
-        --volume "/home/faeu/sophi/RPS-Game:/RPS-Game" \
+        --volume "$PWD:/RPS-Game" \
         --cpu-shares 1024  \
         --memory 2g \
-        sophi/vision:ros-mediapipe-alpha
+        rafaeljose/sophi-vision:ros-mediapipe-alpha 
 
 
