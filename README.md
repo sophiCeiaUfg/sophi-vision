@@ -1,6 +1,8 @@
 # Sophi Vision Demo
 
-Inside the sophi-vision directory run:
+
+
+Clone the sophi-vision repository and the inside the sophi-vision directory run:
 
 ```sh 
 source ./sophi_vision.sh
